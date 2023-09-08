@@ -1,0 +1,106 @@
+/* styles.css */
+
+body,
+html {
+    margin: 0;
+    padding: 0;
+}
+
+#game-frame {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+
+/* login css */
+.form card {}
+
+.card {
+    width: 190px;
+    height: 254px;
+    background: #003459;
+    border-radius: 10px 40px 10px 10px;
+    margin: auto;
+    position: relative;
+    top: 100px;
+    border: 1px solid white;
+    box-shadow: 10px 10px 64px 0px rgba(180, 180, 207, 0.75);
+    -webkit-box-shadow: 10px 10px 64px 0px rgba(186, 186, 202, 0.75);
+    -moz-box-shadow: 10px 10px 64px 0px rgba(208, 208, 231, 0.75);
+}
+
+.form {
+    padding: 25px;
+}
+
+.card_header {
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.card svg {
+    color: #FFF;
+    margin-bottom: 20px;
+    margin-right: 5px;
+}
+
+.form_heading {
+    padding-bottom: 20px;
+    font-size: 21px;
+    color: #FFFF;
+}
+
+.field {
+    padding-bottom: 10px;
+}
+
+.input {
+    border-radius: 5px;
+    background-color: #e9e9f7;
+    padding: 5px;
+    width: 100%;
+    color: #7a7ab3;
+    border: 1px solid #dadaf7
+}
+
+.input:focus-visible {
+    outline: 1px solid #aeaed6;
+}
+
+.input::placeholder {
+    color: #bcbcdf;
+}
+
+label {
+    color: #B2BAC8;
+    font-size: 14px;
+    display: block;
+    padding-bottom: 4px;
+}
+
+button {
+    background-color: #FFF;
+    margin-top: 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    padding: 7px 12px;
+    border: 2px solid none 
+    ;
+    height: auto;
+    font-weight: bold;
+    cursor: pointer;
+    color: #003459;
+
+    border: none;
+}
+
+button:hover {
+    background-color: transparent;
+    color: white;
+    border:2px solid  #FFF;
+}
